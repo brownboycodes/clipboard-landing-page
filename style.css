@@ -76,7 +76,7 @@ header {
 #header-sub-text {
   padding-bottom: 30px;
 }
-#sections-wrapper {
+#wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -84,49 +84,49 @@ header {
   justify-content: center;
   margin-bottom: 140px;
 }
-.section-headline-container {
+.headline-container {
   width: 45vw;
   padding: 0px 5px;
   margin-bottom: 80px;
 }
-.section-headline {
+.headline {
   padding-bottom: 15px;
 }
 
-.section-headline-text {
+.headline-text {
   font-size: 15.5px;
 }
-.section-article-snippets {
+.article-snippets {
   display: flex;
   flex-direction: row;
   margin-left: -375px;
   margin-bottom: 120px;
 }
-.section-article-snippets-img img {
+.article-snippets-img img {
   width: 600px;
 }
-.section-article-text {
+.article-text {
   text-align: left;
   width: 35vw;
   padding-top: 65px;
   padding-left: 100px;
 }
-.section-article-text p {
+.article-text p {
   font-size: 15px;
   padding-bottom: 40px;
 }
-.section-article-clipboard {
+.article-clipboard {
   margin-bottom: 60px;
 }
-.section-article-clipboard img {
+.article-clipboard img {
   width: 700px;
 }
-.section-headline-container-workflow {
+.headline-container-workflow {
   width: 45vw;
   padding: 0px 5px;
   margin-bottom: 80px;
 }
-.section-article-workflow {
+.article-workflow {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -144,22 +144,22 @@ header {
 .article-workflow-icons img {
   margin-bottom: 30px;
 }
-#section-brand-logos {
+#brand-logos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-#section-brand-logos img {
+#brand-logos img {
   height: auto;
   padding: 40px;
   margin-bottom: 100px;
 }
-#section-headline-download-clipboard-container {
+#headline-download-clipboard-container {
   width: 45vw;
   margin-bottom: 30px;
 }
-.section-article-download-clipboard {
+.article-download-clipboard {
   display: flex;
   flex-direction: row;
 }
@@ -237,42 +237,42 @@ footer {
     padding-bottom: 40px;
     padding-top: 10px;
   }
-  .section-headline-container {
+  .headline-container {
     width: 85vw;
   }
-  .section-headline {
+  .headline {
     font-size: 28px;
   }
-  .section-headline-text {
+  .headline-text {
     font-size: 16px;
   }
-  .section-article-snippets {
+  .article-snippets {
     display: flex;
     flex-direction: column;
     margin-left: 0px;
   }
-  .section-article-snippets-img img {
+  .article-snippets-img img {
     width: 65vw;
   }
-  .section-article-text {
+  .article-text {
     text-align: center;
     padding-left: 0px;
     width: 85vw;
   }
-  .section-article-text p {
+  .article-text p {
     font-size: 16px;
   }
-  .section-article-clipboard img {
+  .article-clipboard img {
     width: 75vw;
   }
-  .section-article-workflow {
+  .article-workflow {
     display: flex;
     flex-direction: column;
     width: 85vw;
     padding-right: 0px;
     padding-left: 0px;
   }
-  .section-headline-container-workflow {
+  .headline-container-workflow {
     width: 85vw;
     padding: 0px 5px;
     margin-bottom: 40px;
@@ -284,15 +284,15 @@ footer {
     margin-bottom: 0px;
     margin-top: 40px;
   }
-  #section-brand-logos {
+  #brand-logos {
     margin-bottom: 120px;
     flex-direction: column;
   }
-  #section-brand-logos img {
+  #brand-logos img {
     height: auto;
     margin-bottom: 0px;
   }
-  #section-headline-download-clipboard-container {
+  #headline-download-clipboard-container {
     width: 70vw;
     margin-bottom: 35px;
   }
@@ -344,13 +344,13 @@ footer {
   header {
     padding: 0px 14px;
   }
-  .section-article-snippets-img img {
+  .article-snippets-img img {
     width: 85vw;
   }
-  .section-article-clipboard img {
+  .article-clipboard img {
     width: 90vw;
   }
-  .section-article-download-clipboard {
+  .article-download-clipboard {
     display: flex;
     flex-direction: column;
   }
